@@ -30,9 +30,9 @@ router.get('/api/workouts/range', (req, res) => {
         }
     ])
     .sort({
-        _id: -1,
+        _id: -1
     })
-    .limit(7);
+    .limit(7)
     .then(data => {
         res.json(data);
     })
@@ -40,3 +40,42 @@ router.get('/api/workouts/range', (req, res) => {
         res.json(err);
     })
 })
+
+router.post('/api/workouts', (req, res) => {
+    Workout.create({})
+    .then(data => {
+        res.json(data);
+    })
+    .catch(err => {
+        res.json(err);
+    })
+})
+
+router.put('/api/workouts/:id', ({body,params}, res) => {
+    Workout.findByIdAndUpdate(
+        params.id,
+        {$push: {
+            exercises: body
+        }},{new: true}
+    )
+    .then(data => {
+        res.json(data);
+    })
+    .catch(err => {
+        res.json(err);
+    })
+})
+
+router.delete('/api/workouts/', ({body}, res) => {
+    Workout.findByIdAndDelete(
+        body.id
+    )
+    .then() => {
+        res.json(true);
+    }
+    .catch(err => {
+        res.json(err);
+    })
+})
+
+module.exports = router;
