@@ -20,6 +20,9 @@ Go to the deployed application and select "New Workout". Put in the information 
 
 ![whispering-mountain-97376 herokuapp com_exercise_id=615b79604bd0b6001689b500](https://user-images.githubusercontent.com/84198162/135934077-b7fb5e8e-34b0-4228-9cc5-444ccec0bdd3.png)
 
+![whispering-mountain-97376 herokuapp com_stats](https://user-images.githubusercontent.com/84198162/135934174-b31d3814-a5a3-4b2b-92b3-ad4f537f46a8.png)
+
+
 ## Contribution:
 Refactor and make a pull request.
 ## Test:
