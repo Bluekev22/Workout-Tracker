@@ -70,9 +70,9 @@ router.delete('/api/workouts/', ({body}, res) => {
     Workout.findByIdAndDelete(
         body.id
     )
-    .then() => {
+    .then(() => {
         res.json(true);
-    }
+    })
     .catch(err => {
         res.json(err);
     })
