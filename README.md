@@ -13,6 +13,8 @@
 ## Description:
 The workout tracker allows the user to create and track their daily workouts. You may choose either cardio or resistance workouts. It includes the name of the workout, type, weight, sets, reps, and duration of exercise. If it's a cardio exercise, the distance is also recorded.
 
+![whispering-mountain-97376 herokuapp com__id=615b78c44bd0b6001689b4f8](https://user-images.githubusercontent.com/84198162/135933876-647b9515-c786-4e25-9b2c-f19f94281c44.png)
+
 ## Usage:
 Go to the deployed application and select "New Workout". Put in the information about your workout and click "Complete". Click "Dashboard" at the top to see your workout stats in a graph.
 ## Contribution:
