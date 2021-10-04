@@ -17,6 +17,9 @@ The workout tracker allows the user to create and track their daily workouts. Yo
 
 ## Usage:
 Go to the deployed application and select "New Workout". Put in the information about your workout and click "Complete". Click "Dashboard" at the top to see your workout stats in a graph.
+
+![whispering-mountain-97376 herokuapp com_exercise_id=615b79604bd0b6001689b500](https://user-images.githubusercontent.com/84198162/135934077-b7fb5e8e-34b0-4228-9cc5-444ccec0bdd3.png)
+
 ## Contribution:
 Refactor and make a pull request.
 ## Test:
